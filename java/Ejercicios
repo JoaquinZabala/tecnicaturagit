@@ -164,6 +164,8 @@ var miVariableCadena2 = "seguimos estudiando";
         
         var solucion2 = 3.4 / num2;
         System.out.println("solucion de la division = " + solucion2);
-
+        
+        solucion = num1 % num2; //Guarda el residuo
+        System.out.println("Solucion = " + solucion)
     }
 }

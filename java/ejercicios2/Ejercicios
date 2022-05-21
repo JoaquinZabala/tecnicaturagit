@@ -6,7 +6,7 @@ public class NewClass {
 
     public static void main(String args[]) {
         System.out.println("Hola Mundo desde java");
-        /*
+       
  int miVariable = 10;
  System.out.println(miVariable);
  miVariable = 5;
@@ -148,7 +148,7 @@ var miVariableCadena2 = "seguimos estudiando";
         System.out.println("Digite un carater: ");
         fraseChar = entrada.nextLine().charAt(0);
         System.out.println("fraseChar = " + fraseChar);
-        */
+        
         int num1= 5 , num2= 4;
         var solucion = num1 + num2;
         System.out.println("solucion suma = " + solucion);
@@ -164,6 +164,15 @@ var miVariableCadena2 = "seguimos estudiando";
         
         var solucion2 = 3.4 / num2;
         System.out.println("solucion de la division = " + solucion2);
+        
+        solucion = num1 % num2; //Guarda el residuo de la division
+        System.out.println("Solucion = " + solucion)
+
+        if (num1 % 2 == 0)
+            System.out.println("Es un nuemro par");
+        else
+            System.out.println("Es un nuemro impar");
+
 
     }
 }

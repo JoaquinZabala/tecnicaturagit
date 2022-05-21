@@ -1,13 +1,22 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+package clase.pkg7;
 
-import java.util.Scanner;
+/**
+ *
+ * @author PC
+ */
+public class Clase7 {
 
-//Primer programa Hola Mundo
-public class NewClass {
-
-    public static void main(String args[]) {
-        System.out.println("Hola Mundo desde java");
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
         /*
- int miVariable = 10;
+        // TODO code application logic here
+         int miVariable = 10;
  System.out.println(miVariable);
  miVariable = 5;
  System.out.println(miVariable);
@@ -57,24 +66,7 @@ var miVariableCadena2 = "seguimos estudiando";
         var titulo2 = entrada.nextLine();
         System.out.println("Resultado: "+titulo2+""+usuario2);
          
-        importjava.util.Scanner;
-        
-        
-
-    public class Main {
-
-        public static void main(String[] args) {
-            Scanner scanner = new Scanner(System.in);
-            //Escribe tu solucion aqui
-            System.out.println("Proporciona el titulo: ");
-            String titulo = scanner.nextLine();
-            System.out.println("Proporciona el autor: ");
-            String autor = scanner.nextLine();
-            System.out.println(titulo + "fue escrito por"+ autor);
-
-        }
-    }
-     
+    
         byte numEnteroByte = 127; 
         System.out.println("numEnteroByte = "+ numEnteroByte);
         System.out.println("Valor minimo del byte:" + Byte.MIN_VALUE);
@@ -148,7 +140,7 @@ var miVariableCadena2 = "seguimos estudiando";
         System.out.println("Digite un carater: ");
         fraseChar = entrada.nextLine().charAt(0);
         System.out.println("fraseChar = " + fraseChar);
-        */
+        
         int num1= 5 , num2= 4;
         var solucion = num1 + num2;
         System.out.println("solucion suma = " + solucion);
@@ -164,6 +156,19 @@ var miVariableCadena2 = "seguimos estudiando";
         
         var solucion2 = 3.4 / num2;
         System.out.println("solucion de la division = " + solucion2);
+        
+        solucion = num1 % num2; //Guarda el residuo de la division
+        System.out.println("Solucion = " + solucion)
 
+        if (num1 % 2 == 0)
+            System.out.println("Es un nuemro par");
+        else
+            System.out.println("Es un nuemro impar");
+*/
+        int varNum1 = 1 varNum2 = 4;
+        int varNum3 = varNum1 + 6 - varNum2;
+        System.out.println("varNum3 = " + varNum3);
+        
     }
+    
 }
