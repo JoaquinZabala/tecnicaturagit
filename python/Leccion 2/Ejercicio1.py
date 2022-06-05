@@ -1,7 +1,7 @@
 '''
 Ejercicio 1:
 Deberemos plasmar la expresion en una expresion algoritmica, osea hacerlo en codigo
-
+'''
 a = float(input("Digite el valor de a: "))
 b = float(input("Digite el valor de b: "))
 c = float(input("Digite el valor de c: "))
@@ -16,4 +16,4 @@ else:
 
 condicion2 = 0
 print("Condicion verdadera") if condicion2 else print ("Condicion Falsa")
-'''
+

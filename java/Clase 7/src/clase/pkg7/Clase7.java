@@ -164,11 +164,21 @@ var miVariableCadena2 = "seguimos estudiando";
             System.out.println("Es un nuemro par");
         else
             System.out.println("Es un nuemro impar");
-*/
-        int varNum1 = 1 varNum2 = 4;
-        int varNum3 = varNum1 + 6 - varNum2;
+
+        int varNum1 = 1, varNum2 = 4;
+        int varNum3 = varNum1 + 6 - varNum2; //Una opreación
         System.out.println("varNum3 = " + varNum3);
-        
+        varNum1 += 1; //varNum1 = varNum1 + 1;
+        System.out.println("varNum1 = " + varNum1);
+        varNum1 -= 2;
+        System.out.println("varNum1 = " + varNum1);
+        varNum1 *= 5;
+        System.out.println("varNum1 = " + varNum1);
+        varNum1 /= 4;
+        System.out.println("varNum1 = " + varNum1);
+        varNum1 %= 6;
+        System.out.println("varNum1 = " + varNum1);
+*/
     }
     
 }
