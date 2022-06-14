@@ -176,4 +176,3 @@ if edadPersona >= edadAdulto:
 else:
     print(f"Usted es menor de edad")
 '''
-
