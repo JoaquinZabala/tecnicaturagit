@@ -1,4 +1,3 @@
-
 package HolaMundoo;
 
 public class HolaMundoo {
@@ -170,10 +169,6 @@ var miVariableCadena2 = "seguimos estudiando";
             System.out.println("Es un nuemro par");
         else
             System.out.println("Es un nuemro impar");
-
 */
     }
 }
-
-    
-
