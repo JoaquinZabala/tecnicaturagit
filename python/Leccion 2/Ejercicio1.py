@@ -16,4 +16,3 @@ else:
 
 condicion2 = 0
 print("Condicion verdadera") if condicion2 else print ("Condicion Falsa")
-

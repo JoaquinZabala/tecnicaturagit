@@ -13,11 +13,11 @@ elif 10 <= edad < 20:
 elif 20 <= edad < 30:
     oracion = "Amor y comienza el trabajo"
 elif 30 <= edad < 50:
-    oracion = "Comienza "
+    oracion = "Trabajo y familia"
 elif 50 <= edad < 70:
-    oracion = "Amor y comienza el trabajo"
+    oracion = "Amor y Familia"
 elif 70 <= edad < 100:
-    oracion = "Amor y comienza el trabajo"
+    oracion = "Disfrutar la vida"
 else:
     oracion = "Error, etapa de vida no reconocida"
 print(f"Tu edad es: {edad}, {oracion} ")

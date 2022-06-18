@@ -78,7 +78,6 @@ print("El resultado de la suma es: ",resultado)
 j = "Separacion"
 print(j)
 
-
 operandoA = 8
 operandoB = 5
 suma = operandoA + operandoB
