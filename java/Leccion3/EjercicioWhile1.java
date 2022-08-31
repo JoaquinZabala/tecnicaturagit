@@ -32,6 +32,7 @@ public class EjercicioWhile01 {
           //      continue; //Vamos a la siguiente interaccion
         //       
         //Etiquetas labels
+        inicio:
         for(var contando = 0: contando < 7; contando++){
             if (contando % 2 == 0){
              System.out.println("contando = " + contando);
@@ -39,4 +40,4 @@ public class EjercicioWhile01 {
             }
         }
     }
-   }
+   } 
