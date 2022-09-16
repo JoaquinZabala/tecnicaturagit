@@ -1,16 +1,9 @@
-# This is a sample Python script.
+#Comenzamos con Funciones
+# Definimos una funcion
+#mi_funcion() # No se puede llamar antes de definir a una funcion porque nos dara error
+def mi_funcion (): # Para identificar a la funcion utilizamos parentesis
+    print("Saludos a todos los alumnos de la tecnicatura")
 
-# Press Mayús+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+mi_funcion()#Estamos llamando a la funcion
+mi_funcion() # Se puede llamar a una funcion N cantidad de veces, osea la cantidad de veces que querramos
 
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
