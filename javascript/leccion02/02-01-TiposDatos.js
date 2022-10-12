@@ -12,10 +12,39 @@ var numero = 12392932;
 console.log(numero);
 
 var objeto = {
-    nombre: "Joaquín", 
+    Nombre: "Joaquín", 
     Apellido: "Zabala",
     Telefono: "2625609005",
     Correo: "joaquinzabala@gmail.com"
 }
 
 console.log(objeto);
+
+//Tipo de dato calse
+class Persona{
+    constructor(Nombre,Apellido){
+    this.Nombre = Nombre;
+    this.Npellido = Apellido;
+    }
+}
+console.log(typeof Persona);
+
+//Tipo de dato undefined
+var x;
+console.log(x);
+
+x = undefined;
+console.log(typeof x);
+
+//null: significa ausencia de valor
+var y = null; //null no es un tipo de dato, pero su origen es de un object
+console.log(typeof y);
+
+//Tipo de dato array y Empty String
+var autos = ["Citroen", "Audi", "BMW", "Ford", "Ferrari"];
+console.log(autos);
+console.log(typeof autos); //Preguntamos que tipo de dato es:
+
+var z = "";
+console.log(z); // Esto se refiere a que es una cadena vacia:
+console.log(typeof z);
