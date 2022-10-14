@@ -5,7 +5,17 @@ public class Aritmetica {
     //Atribbutos de la clase
     int a; //Si o inicializamos asi,tienen el valor de 0 y False
     int b;
+    //El constructor es un metodo especial
     
+    public Aritmetica(){
+        System.out.println("Se esta ejecutando este constructor numero uno");
+    }
+    //Estamos viendo lo que se llama sobrecarga de constructores
+    public Aritmetica(int a, int b){
+        this.a = a;
+        this.b = b;
+        System.out.println("Se esta ejecutando este constructor numero dos");
+    }
     //Metodo
     public void sumarNumeros(){
         //Cuerpo de la clase
