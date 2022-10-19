@@ -19,12 +19,23 @@ var objeto = {
 }
 
 console.log(objeto);
+//Tipo de dato boolean
+var bandera = true;
+console.log(typeof bandera);
 
-//Tipo de dato calse
+//Tipo de dato funcion
+function miFuncion(){}
+console.log(typeof miFuncion);
+
+//Tipo de dato symbol
+var simbolo = Symbol("Mi simbolo");
+console.log(typeof simbolo);
+
+//Tipo de dato clase
 class Persona{
-    constructor(Nombre,Apellido){
-    this.Nombre = Nombre;
-    this.Npellido = Apellido;
+    constructor(nombre,apellido){
+    this.nombre = nombre;
+    this.apellido = apellido;
     }
 }
 console.log(typeof Persona);
