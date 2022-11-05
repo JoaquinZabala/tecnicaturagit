@@ -46,3 +46,7 @@ Operador Distinto / Diferente (Tipo Boolean)
 Operadores Relacionales (Tipo Boolean)
 
 <	>	<=	>=
+
+Operadores Lógicos
+And -> && Doble aspersan
+Or -> 

@@ -1,4 +1,4 @@
-<diagram program="umletino" version="15.0.0"><zoom_level>14</zoom_level><help_text>Space for diagram notes</help_text><element><id>UMLClass</id><coordinates><x>462</x><y>0</y><w>294</w><h>308</h></coordinates><panel_attributes>&lt;&lt;Persona&gt;&gt;
+<diagram program="umletino" version="15.0.0"><zoom_level>14</zoom_level><help_text>Space for diagram notes</help_text><element><id>UMLClass</id><coordinates><x>504</x><y>154</y><w>294</w><h>308</h></coordinates><panel_attributes>&lt;&lt;Persona&gt;&gt;
 --
 -nombre: String
 -genero: char
@@ -13,7 +13,7 @@
 +setEdad(int):void
 +getDireccion():String
 +setDireccion(String):void
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>700</x><y>406</y><w>294</w><h>224</h></coordinates><panel_attributes>&lt;&lt;Cliente&gt;&gt;
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>742</x><y>560</y><w>294</w><h>224</h></coordinates><panel_attributes>&lt;&lt;Cliente&gt;&gt;
 --
 -idCliente:int
 -fechaRegistro:Date
@@ -24,7 +24,7 @@
 +setFechaRegistro(Date):void
 +idVip():boolean
 +setVip(boolean):void
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>196</x><y>406</y><w>294</w><h>154</h></coordinates><panel_attributes>&lt;&lt;Empleado&gt;&gt;
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>238</x><y>560</y><w>294</w><h>154</h></coordinates><panel_attributes>&lt;&lt;Empleado&gt;&gt;
 --
 -idEmpleado:int
 -sueldo:double
@@ -32,7 +32,7 @@
 +getIdEmpleado():int
 +getSueldo():double
 +setSueldo(double):void
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>588</x><y>294</y><w>42</w><h>98</h></coordinates><panel_attributes>lt=&lt;.
-</panel_attributes><additional_attributes>10;10;10;50</additional_attributes></element><element><id>Relation</id><coordinates><x>882</x><y>350</y><w>42</w><h>126</h></coordinates><panel_attributes>lt=&lt;.
-</panel_attributes><additional_attributes>10;10;10;70</additional_attributes></element><element><id>Relation</id><coordinates><x>266</x><y>350</y><w>42</w><h>112</h></coordinates><panel_attributes>lt=&lt;.
-</panel_attributes><additional_attributes>10;10;10;60</additional_attributes></element><element><id>UMLInterface</id><coordinates><x>882</x><y>336</y><w>28</w><h>98</h></coordinates><panel_attributes></panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLInterface</id><coordinates><x>266</x><y>336</y><w>28</w><h>98</h></coordinates><panel_attributes></panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>266</x><y>336</y><w>672</w><h>56</h></coordinates><panel_attributes></panel_attributes><additional_attributes>60;20;10;20;460;20</additional_attributes></element></diagram>
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>630</x><y>448</y><w>42</w><h>98</h></coordinates><panel_attributes>lt=&lt;.
+</panel_attributes><additional_attributes>10;10;10;50</additional_attributes></element><element><id>Relation</id><coordinates><x>924</x><y>504</y><w>42</w><h>126</h></coordinates><panel_attributes>lt=&lt;.
+</panel_attributes><additional_attributes>10;10;10;70</additional_attributes></element><element><id>Relation</id><coordinates><x>308</x><y>504</y><w>42</w><h>112</h></coordinates><panel_attributes>lt=&lt;.
+</panel_attributes><additional_attributes>10;10;10;60</additional_attributes></element><element><id>UMLInterface</id><coordinates><x>924</x><y>490</y><w>28</w><h>98</h></coordinates><panel_attributes></panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLInterface</id><coordinates><x>308</x><y>490</y><w>28</w><h>98</h></coordinates><panel_attributes></panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>308</x><y>490</y><w>672</w><h>56</h></coordinates><panel_attributes></panel_attributes><additional_attributes>60;20;10;20;460;20</additional_attributes></element></diagram>
