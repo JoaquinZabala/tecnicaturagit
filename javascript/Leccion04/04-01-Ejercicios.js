@@ -1,5 +1,5 @@
 //Ejercicio 1: Calcular estacion del año
-let mes = 8;
+let mes = 11;
 let estacion; //Undefined
 if(mes == 1 || mes == 2 || mes == 12){
     estacion = "Verano"
@@ -26,7 +26,7 @@ De 17 a 19 nos saluda: Good Evening
 De 20 a 23 nos saluda: Good Night
 Trabajaremos con 24hrs
 */
-let horaDia = 15;
+let horaDia = 19;
 let mensaje;
 if(horaDia >= 6 && horaDia <= 11){
     mensaje = "Good Morning";
